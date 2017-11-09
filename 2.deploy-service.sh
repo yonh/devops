@@ -14,7 +14,7 @@ sudo docker run -dt --name=gogs \
  gogs/gogs
 
 sudo docker run -d --name jenkins \
- -p 8000:8080 \
+ -p 8080:8080 \
  -p 10000:10000 \
  -p 50000:50000 \
  -v $PWD/jenkins_data:/var/jenkins_home \

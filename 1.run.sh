@@ -20,3 +20,4 @@ sudo chmod +x /usr/local/bin/docker-compose
 sudo docker pull gogs/gogs
 sudo docker pull jenkins/jenkins:2.72
 sudo docker pull maven:3.5.0-jdk-8-alpine
+sudo docker pull mysql/mysql-server:5.7
